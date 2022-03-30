@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ezberyap.MainPage">
+   <children>
+      <Pane fx:id="wordPane" layoutX="114.0" layoutY="130.0" prefHeight="121.0" prefWidth="140.0" style="-fx-background-color: de2e96; -fx-background-radius: 8;">
+         <children>
+            <Label layoutX="34.0" layoutY="48.0" text="Kelimeler" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="examPane" layoutX="346.0" layoutY="130.0" prefHeight="121.0" prefWidth="140.0" style="-fx-background-color: de2e96; -fx-background-radius: 8;">
+         <children>
+            <Label layoutX="24.0" layoutY="48.0" text="Sınava Başla" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
